@@ -1,0 +1,135 @@
+<script language="javascript" type="text/javascript">
+var request = false;
+try {
+  request = new XMLHttpRequest();
+} catch (trymicrosoft) {
+  try {
+    request = new ActiveXObject("Msxml2.XMLHTTP");
+  } catch (othermicrosoft) {
+    try {
+      request = new ActiveXObject("Microsoft.XMLHTTP");
+    } catch (failed) {
+      request = false;
+    }
+  }
+}
+
+if (!request)
+  alert("Error initializing XMLHttpRequest!");
+</script>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>Welcome to extreme programming!</title>
+
+<style>
+
+//html{width:100%;height:100%;}
+body{background:#fff;font-size:18px;font-family:"Arial", "Tahoma", "微软雅黑", "雅黑";line-height:18px;padding:0px;margin:0px;text-align:center;}
+div{padding:18px}
+
+input, button{font-family:"Arial", "Tahoma", "微软雅黑", "雅黑";border:0;vertical-align:middle;margin:8px;line-height:18px;font-size:18px}
+
+</style>
+<style type="text/css">	
+body{
+  background-color:#83c887;
+  }
+			input {
+				font-size: 120%;
+				color: black; 
+				background-color: #f2f2f2;
+				border: 1px solid #bdbdbd;
+				border-radius: 5px;
+				padding: 5px 30px 5px 30px;
+				background-repeat: no-repeat;
+				background-position: 8px 9px;
+				//display: block;
+				margin-bottom: 10px;}
+			input:focus, input:hover {
+				background-color: #ffffff;
+				border: 1px solid #b1e1e4;}
+		
+			input#submit {
+				color: #444444;
+				text-shadow: 0px 1px 1px #ffffff;
+				border-bottom: 1px solid #b2b2b2;
+				background-color: #b9e4e3;
+				background: -webkit-gradient(linear, left top, left bottom, from(#beeae9), to(#a8cfce));
+				background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+				background: -o-linear-gradient(top, #beeae9, #a8cfce);
+				background: -ms-linear-gradient(top, #beeae9, #a8cfce);
+				display: inline;
+				}
+			input#submit:hover {
+				color: #111111;
+				border: 1px solid #a4a4a4;
+				border-top: 1px solid #b2b2b2;
+				background-color: #a0dbc4;
+				background: -webkit-gradient(linear, left top, left bottom, from(#a8cfce), to(#beeae9));
+				background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+				background: -o-linear-gradient(top, #a8cfce, #beeae9);
+				background: -ms-linear-gradient(top, #a8cfce, #beeae9);
+				display: inline;
+				}
+				input#reset {
+				color: #444444;
+				text-shadow: 0px 1px 1px #ffffff;
+				border-bottom: 1px solid #b2b2b2;
+				background-color: #b9e4e3;
+				background: -webkit-gradient(linear, left top, left bottom, from(#beeae9), to(#a8cfce));
+				background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+				background: -o-linear-gradient(top, #beeae9, #a8cfce);
+				background: -ms-linear-gradient(top, #beeae9, #a8cfce);
+				display: inline;
+				}
+			input#reset:hover {
+				color: #111111;
+				border: 1px solid #a4a4a4;
+				border-top: 1px solid #b2b2b2;
+				background-color: #a0dbc4;
+				background: -webkit-gradient(linear, left top, left bottom, from(#a8cfce), to(#beeae9));
+				background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+				background: -o-linear-gradient(top, #a8cfce, #beeae9);
+				background: -ms-linear-gradient(top, #a8cfce, #beeae9);
+				display: inline;
+				}
+				
+				
+				
+			body {
+				background-image: url("images/stdol.png");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				color: #665544;
+				padding: 0px;}
+		
+		</style>
+	
+</head>
+<body>
+<br/>
+<h1 align="center"><strong>欢 迎 使 用  蹭 课 系 统 ！</strong></h1>
+<h2 align="center"><strong>制作：Null团队</strong></h2> 
+<hr />
+<center>
+<form action = "inchk.jsp" method = "post"name="form3" method = "post"onSubmit="return on_submit()">
+			<p>
+				<input type="text" name="username" size="15" maxlength="20" placeholder="请输入用户名"required="required"/>
+			</p>
+			<p>
+				<input type="password" name="password" size="15" maxlength="20" placeholder="请输入密码"required="required"/>
+			</p>
+			
+	<input type="submit" value="登录" id="submit" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "reset" value = "重置"id="reset" />
+</center>
+			<br /><br /><br />
+			<p>如果你没有账户，请<a href="reg.jsp">注册</a></p>
+			
+		
+		</form>
+
+</body>
+</html>

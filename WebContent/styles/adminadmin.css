@@ -1,0 +1,99 @@
+@charset "utf-8";
+body {
+	text-align: center;
+
+}
+#h {
+	text-align: center;
+	font-size: 50px;
+
+}
+#f1 {width: 220px;
+	margin: 0 auto;
+	border: 0;
+}
+#teacher {
+	width: 200px;
+	height:40px;
+	
+}
+#lesson {
+	width: 200px;
+	height:40px;
+	
+}
+#time {
+	width: 200px;
+	height:40px;
+	
+}
+#week {
+	width: 200px;
+	height:40px;
+	
+}
+#butt {
+	width: 200px;
+	height:40px;
+	
+}
+#place {
+	width: 200px;
+	height:40px;
+	
+}
+select,input,form {
+	margin: 5px;
+	border: 1;
+}
+
+div{
+	margin: 0 auto;
+}
+#d{
+	position: relative;
+	width: 1000px;
+	height: 400px
+}
+#d1{
+	position: relative;
+	float: left;
+	width: 400px;
+	height: 400px;
+}
+#d2{
+	position: relative;
+	float: left;
+	width: 500px;
+	height: 400px;
+}
+h2{
+	width: 400px;
+	height: 40px;
+	margin: 5px;
+}
+form{
+	width: 400px;
+	height: 40px;
+}
+.d2_in{
+	width: 200px;
+	height: 40px;
+}
+.d2_but{
+	width: 150px;
+	height: 40px;
+}
+#d2_d3{
+	margin-top: 50px;
+}
+#d2_d2{
+	margin-top: 50px;
+}
+#d2_d1{
+	margin-top: 50px;
+}
+#d2_but{
+	width: 200px;
+	height: 40px;
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+body {
+	text-align: center;
+
+}
+#h {
+	text-align: center;
+	font-size: 50px;
+
+}
+#f1 {width: 220px;
+	margin: 0 auto;
+	border: 0;
+}
+#teacher {
+	width: 200px;
+	height:40px;
+	
+}
+#lesson {
+	width: 200px;
+	height:40px;
+	
+}
+#time {
+	width: 200px;
+	height:40px;
+}
+#week {
+	width: 200px;
+	height:40px;
+}
+#butt {
+	width: 200px;
+	height:40px;
+}
+#place {
+	width: 200px;
+	height:40px;
+}
+select,input {
+	margin: 5px;
+	border: 1;
+}
+a{
+	margin: 0 auto;
+}

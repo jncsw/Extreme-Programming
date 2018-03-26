@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<mate charset="gb2312">
+	<title>在线.搜索.课表</title>
+	<link rel="stylesheet" type="text/css" href="styles/decc.css">
+	
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="scripts/aaaa.js"></script>
+</head>
+<body>
+
+	<div id="d1" >
+		<h1 id="h">删除课程</h1>
+
+		<form id="f1"   action="decclass.jsp" />
+		<input id="lesson" type="text" placeholder="课程名"required="required"  name="lesson" />
+		    <input id="teacher" type="text"  placeholder="教师" required="required"  name="teacher" />
+		    <select id="week" name="week"><!-- 时间 -->
+
+				<option value="1">星期一</option>
+				<option value="2">星期二</option>
+				<option value="3">星期三</option>
+				<option value="4">星期四</option>
+				<option value="5">星期五</option>
+				<option value="6">星期六</option>
+				<option value="7">星期日</option>
+			
+
+			</select>
+			<select id="time" name="time"><!-- 时间 -->
+
+				<option value="1">一至二节</option>
+				<option value="2">三至四节</option>
+				<option value="3">五至六节</option>
+				<option value="4">七至八节</option>
+				<option value="5">第九节</option>
+			</select>
+			<input id="place"  name="place" type="text" required="required"   placeholder="输入教室 如；一区105请输入1105" />
+
+			
+			
+			<input id="butt" type="submit" value="确认删除" />
+		</form>
+	</div>
+	
+</body>
+</html>
+
+
+
+	

@@ -1,0 +1,28 @@
+@charset "utf-8";
+a{
+	text-decoration:none;
+}
+body{
+	text-align: center;
+}
+form,h1,a{
+	margin: 0 auto;
+}
+#sel{
+	width: 308px;
+	height: 40px;
+	font-size: 20px;
+
+}
+#butt{
+	width: 200px;
+	height: 40px;
+	font-size: 30px;
+	position:relative;
+	top:4px;
+	
+
+}
+a{
+	font-size: 30px;
+}

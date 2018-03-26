@@ -1,0 +1,71 @@
+@charset "utf-8";
+div{
+	  
+}
+#in{
+	margin: 0 auto;
+	width: 800px;
+	height: 40px;
+
+}
+#place{
+	width: 150px;
+	height: 40px;
+	position: relative;
+	float: left;
+	border:1px solid black;
+
+}
+#teacher{
+	width: 150px;
+	height: 40px;
+	position: relative;
+	float: left;
+	border:1px solid black;
+}
+#lesson{
+	width: 250px;
+	height: 40px;
+	position: relative;
+	float: left;
+	border:1px solid black;
+}
+/* #time{width: 200px;
+	height: 40px;
+    position: relative;
+	float: left;
+	border:1px solid black;
+} */
+
+body{
+	text-align:center;
+}
+a{
+	margin: 0 auto;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+}
+#sel{
+	width: 200px;
+	height: 50px;
+	font-size: 40px;
+}
+#time {
+	width: 200px;
+	height:40px;
+}
+#week {
+	width: 200px;
+	height:40px;
+}
+#butt{
+	font-size: 25px;
+	font-weight: 800;
+	height: 40px;
+	position: relative;
+	top: 7px;
+}
+form{
+	height: 50px;
+}

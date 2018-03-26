@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312">
+	<title>在线.搜索.课表</title>
+	<link rel="stylesheet" type="text/css" href="styles/index2.css">
+	
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src=""></script>
+</head>
+<body>
+<h1>选择查询时间</h1>
+	<form   action="chk.jsp">
+	<select id="week" name="week"><!-- 时间 -->
+		<option value="1">星期一</option>
+		<option value="2">星期二</option>
+		<option value="3">星期三</option>
+		<option value="4">星期四</option>
+		<option value="5">星期五</option>
+		<option value="6">星期六</option> 
+		<option value="7">星期天</option>
+	</select>
+	   <select id="time" name="time"><!-- 时间 -->
+		<option value="1">一至二节</option>
+		<option value="2">三至四节</option>
+		<option value="3">五至六节</option>
+		<option value="4">七至八节</option>
+		<option value="5">第九节</option>
+	</select> 
+	<input type="hidden" name="ch"id="ch" value="kjs">
+		<button id="butt">查询</button> 
+	</form>
+</body>
+</html>
